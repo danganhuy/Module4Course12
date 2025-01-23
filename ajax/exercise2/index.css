@@ -16,6 +16,16 @@
     padding-left: 10px;
 }
 
+#display-list th {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #6a7fe6;
+}
+
+#display-list tr:nth-child(even) {
+    background-color: #b1b4c5;
+}
+
 .btn {
     text-align: center;
 }
@@ -25,9 +35,25 @@ button {
 }
 
 #div-btn {
-    width: 600;
-    margin-left: 470px;
-    margin-bottom: 10px;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-btn button {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+    padding: 5px 20px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    border: none;
+}
+
+#div-btn button:hover {
+    background-color: green;
 }
 
 h1 {
@@ -42,4 +68,11 @@ h1 {
     display: none;
     width: 300px;
     margin: auto;
+}
+
+form {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #888;
 }
